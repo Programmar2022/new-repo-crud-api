@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GEOLIN",
+    "dateExported": "2023-04-21T04:39:15.826Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "16fa8cb1-fba1-4a9a-892e-772ff4be5856",
+            "colId": "e70e7330-f668-4f76-8e10-6295df9054b5",
+            "containerId": "",
+            "name": "CREATE USERS",
+            "url": "localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-21T04:26:26.603Z",
+            "modified": "2023-04-21T04:37:49.073Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n        \"title\":\"dsad\" ,\n        \"firstName\": \"pogi\" ,\n        \"lastName\": \"GWAdsaPo\",\n        \"role\": \"Admin\",\n        \"email\": \"sonukireive-8403@yopmail.com\",\n        \"password\": \"123456\" ,\n        \"confirmPassword\":\"123456\" \n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e7822123-d5f9-4960-8da0-563e9af7d586",
+            "colId": "e70e7330-f668-4f76-8e10-6295df9054b5",
+            "containerId": "",
+            "name": "GET USERS",
+            "url": "localhost:4000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-21T04:27:08.856Z",
+            "modified": "2023-04-21T04:27:08.856Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n        \"title\":\"MATH\" ,\n        \"firstName\": \"Glenn\" ,\n        \"lastName\": \"Geolin\",\n        \"role\": \"User\",\n        \"email\": \"brigammilauwau-3949@yopmail.com\",\n        \"password\": \"123456\" ,\n        \"confirmPassword\":\"123456\" \n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "062443bc-f151-4d8e-a5f7-d708dc590517",
+            "colId": "e70e7330-f668-4f76-8e10-6295df9054b5",
+            "containerId": "",
+            "name": "DELETE USER",
+            "url": "localhost:4000/users/5",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-04-21T04:27:52.935Z",
+            "modified": "2023-04-21T04:38:35.424Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n        \"title\":\"MATH\" ,\n        \"firstName\": \"Glenn\" ,\n        \"lastName\": \"Geolin\",\n        \"role\": \"User\",\n        \"email\": \"brigammilauwau-3949@yopmail.com\",\n        \"password\": \"123456\" ,\n        \"confirmPassword\":\"123456\" \n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6829369b-8c3a-4567-a176-2c629f2da501",
+            "colId": "e70e7330-f668-4f76-8e10-6295df9054b5",
+            "containerId": "",
+            "name": "UPDATE USER",
+            "url": "localhost:4000/users/5",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-04-21T04:30:34.815Z",
+            "modified": "2023-04-21T04:38:24.775Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n        \"title\":\"Math\" ,\n        \"firstName\": \"dsjad\" ,\n        \"lastName\": \"Gsd\",\n        \"role\": \"User\",\n        \"email\": \"b2454@yopmail.com\",\n        \"password\": \"123456\" ,\n        \"confirmPassword\":\"123456\" \n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "67b1c7a1-5dea-44fd-81d9-ad051fc9a9d8",
+            "colId": "e70e7330-f668-4f76-8e10-6295df9054b5",
+            "containerId": "",
+            "name": "GET USER BY ID",
+            "url": "localhost:4000/users/5",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-04-21T04:32:52.478Z",
+            "modified": "2023-04-21T04:38:00.174Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n        \"title\":\"MATH\" ,\n        \"firstName\": \"Glenn\" ,\n        \"lastName\": \"Geolin\",\n        \"role\": \"User\",\n        \"email\": \"brigammilauwau-3949@yopmail.com\",\n        \"password\": \"123456\" ,\n        \"confirmPassword\":\"123456\" \n  }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
